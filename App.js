@@ -1,1 +1,1 @@
-test
+    "sonarqube-scanner": "node_modules/.bin/sonar-scanner -Dsonar.host.url=http://172.20.7.133:8090/sonarqube -Dsonar.projectKey=wba-merch-react-styledcomponents -Dsonar.projectName=wba-merch-react-styledcomponents -Dsonar.sources=src -Dsonar.javascript.lcov.reportPaths=test/unit/reports/coverage/lcov.info -Dsonar.exclusions=/src/__mocks__/**",
